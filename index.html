@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakshay's Developer Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Lakshay's Portfolio</div>
+            <div class="right">
+                <ul id="sidemenu">
+                    <li><a href="#left">Home</li></a>
+                    <li><a href="#about">About</li></a>
+                    <li><a href="#education">Education</li></a>
+                    <li><a href="#service">Service</li></a>
+                    <li><a href="#project">Projects</li></a>
+                    <li><a href="#contact-me">Contact Me</li></a>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi, My name is <span class="purple">LAKSHAY</span> 
+                <div>and I am a Passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection"><img src="pngwing.com.png"></div>
+        </section>
+        <hr>
+    <!-- ------------------about---------------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="question mark.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nam impedit cupiditate minus, tempora veniam non distinctio delectus, corrupti, similique fugiat blanditiis eos accusamus illo nisi quaerat laudantium reiciendis rerum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr id="education">
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+        </section>
+        <section class="work-experience">
+            <h2>Education</h2>
+            <table class="education-table">
+                <thead>
+                    <tr>
+                        <th>Course</th>
+                        <th>School / university</th>
+                        <th>State</th>
+                        <th>Year passing out / pursuing</th>
+                        <th>Stream / Field</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>10th</td>
+                        <td>KV NTPC badarpur</td>
+                        <td>Delhi</td>
+                        <td>2020</td>
+                        <td>Basic</td>
+                    </tr>
+                    <tr>
+                        <td>12th</td>
+                        <td>KV NTPC badarpur</td>
+                        <td>Delhi</td>
+                        <td>2022</td>
+                        <td>Arts</td>
+                    </tr>
+                    <tr>
+                        <td>Bachelor of Computer Applications</td>
+                        <td>Noida International University</td>
+                        <td>Noida</td>
+                        <td>2025</td>
+                        <td>Computer Science</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    <!-- ---------------------services------------------- -->
+
+        <div id="service">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <a href="#"><div>
+                        <i class="fa-solid fa-pencil"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum neque soluta dignissimos! Praesentium omnis eveniet beatae eligendi explicabo iure assumenda iusto suscipit doloribus sed optio quisquam libero, officiis, laudantium dolor.</p>
+                    </div></a>
+                    <a href="#"><div>
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        <h2>Editing</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum neque soluta dignissimos! Praesentium omnis eveniet beatae eligendi explicabo iure assumenda iusto suscipit doloribus sed optio quisquam libero, officiis, laudantium dolor.</p>
+                    </div></a>
+                </div>
+            </div>
+        </div>
+
+    <!-- ---------------------portfolio------------------ -->
+ 
+<div id="project">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="project-list">
+            <div class="project">
+                <img src="amazon.png">
+                <div class="layer">
+                    <h3>Clone Amazon</h3>
+                    <p>This is my first time project so this is not responsive but well structured.</p>
+                    <a href="https://lakshay-hai.github.io/test/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="rps.png">
+                <div class="layer">
+                    <h3>Rock Paper And Scissors</h3>
+                    <p>I used HTML, CSS, and JavaScript to make this game for fun.</p>
+                    <a href="https://lakshay-hai.github.io/Rock-Paper-And-Scissors/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="snake.png">
+                <div class="layer">
+                    <h3>Snake Game</h3>
+                    <p>This game was also made using HTML, CSS, and JavaScript just for fun.</p>
+                    <a href="https://lakshay-hai.github.io/snake-game/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="portfolio.png">
+                <div class="layer">
+                    <h3>My Portfolio</h3>
+                    <p>Created a personal portfolio website to showcase projects and skills.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i>LINK SOON</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>   
+
+        <hr>
+
+    <!-- ------------contact----------------  -->
+<div id="contact-me">
+        <div class=container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title2">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> lakshaysaini7827@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i></a> 876636799_</p><br>
+                    <a href="LAKSHAY'S Resume .pdf" download class="btn btn2">Download CV</a>
+                </div>     
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet" class="contact-form">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="Email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="5" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="copyright">
+            <p>Copyright © LAKSHAY. Made by <i class="fa-solid fa-heart"> LAKSHAY </i></p>
+        </div>
+    </main>
+
+
+    <!-- ------------footer------------- -->
+<footer class="footer">
+    <div class="footer-content">
+        <h2>LAKSHAY'S PORTFOLIO</h2>
+        <ul class="social-media">
+            <li><a href="#" target="_blank" class="social-link"><img src="linkedin.png" alt="LinkedIn" class="social-icon"></a></li>
+            <li><a href="https://github.com/lakshay-hai" target="_blank" class="social-link"><img src="github.png" alt="GitHub" class="social-icon"></a></li>
+            <li><a href="https://x.com/LAKSHAY_HAI?t=NsjMmc6891YDgFYMRYiitw&s=09" target="_blank" class="social-link"><img src="x.png" alt="Twitter" class="social-icon"></a></li>
+        </ul>
+    </div>
+</footer>
+
+    <script>
+    var typed = new Typed('#element', {
+      strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+      typeSpeed: 50,
+    });
+  </script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web developer', 'Video Editor', 'Web Designer'],
+          typeSpeed: 50,
+        });
+      </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyg601cxQja-2jUZ3gXB_McjvEc0yvhbexxmrjYHHqbOFnUGZ2HlsW8dgIZvFO8ZOUNHA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
